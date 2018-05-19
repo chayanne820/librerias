@@ -1,0 +1,22 @@
+
+body{
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+ 
+}
+.fondo2{
+  background-color: rgb(87, 192, 157);
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.fondo3{
+  background-color: rgb(1, 72, 105);
+  opacity: 0.8;
+  
+}
+h1,h2,h3,h4{
+  opacity: 1 !important;
+}
+.borde{
+  border: 5px black  solid;
+}

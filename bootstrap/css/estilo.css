@@ -1,0 +1,46 @@
+img{
+    width: 30%;
+}
+.logo{
+    width: 80% ;
+}
+.container{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    background-image: url(../img/fondo3.jpg);
+}
+.titulo:hover{
+    background-image: url(../img/rayo.jpg);
+    width: 15%;
+}
+.titulo2:hover{
+    background-image: url(../img/rayo.jpg);
+    width: 100%;
+}
+.red2{
+    margin-top: 60%;
+}
+.espacio{
+    margin-top: 15px;
+}
+.icono{
+    margin-top: 20px;
+    
+}
+@media(max-width: 770px){
+    img{
+        width: 15%;
+    }
+    logo{
+        width: 30%;
+    }
+    .titulo:hover{
+        width: 100%
+    }
+    .red2{
+        margin-top: 15px;
+    }
+}
